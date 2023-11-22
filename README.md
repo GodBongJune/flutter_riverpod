@@ -1,6 +1,9 @@
 # flutter_riverpod
 
 A new Flutter project.
+이 프로젝트의 서버
+https://github.com/GodBongJune/flutter-lv2-server
+
 
 ## Getting Started
 
