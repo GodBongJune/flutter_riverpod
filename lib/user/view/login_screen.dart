@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/common/component/custom_text_form_field.dart';
 import 'package:flutter_riverpod/common/const/colors.dart';
 import 'package:flutter_riverpod/common/layout/default_layout.dart';
+import 'package:flutter_riverpod/common/view/root_tab.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);
@@ -78,7 +79,13 @@ class _LoginScreenState extends State<LoginScreen> {
                       ),
                     );
 
-                    print(resp.data);
+                    Navigator.of(context).push(
+                      MaterialPageRoute(
+                        builder: (_) => RootTab(),
+                      ),
+                    );
+
+                    // print(resp.data);
                   },
                   style: ElevatedButton.styleFrom(
                     primary: PRIMARY_COLOR,
