@@ -18,8 +18,8 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
-  String username = "";
-  String password = "";
+  String username = "test@codefactory.ai";
+  String password = "testtest";
 
   @override
   Widget build(BuildContext context) {
